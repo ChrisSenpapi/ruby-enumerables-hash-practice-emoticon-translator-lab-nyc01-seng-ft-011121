@@ -24,5 +24,5 @@ end
 
 def get_english_meaning(path, emoticon)
  emoji = load_library(path)
- 
+ if emoji 
 end
