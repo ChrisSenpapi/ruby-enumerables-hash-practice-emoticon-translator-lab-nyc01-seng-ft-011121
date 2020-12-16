@@ -3,7 +3,7 @@ require 'pry'
 
 def load_library(path)
  final_hash = {}
- binding.pry
+ YAML.load_file(path)
  final_hash
 end	
 
