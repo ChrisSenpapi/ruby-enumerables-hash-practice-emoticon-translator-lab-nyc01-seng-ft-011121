@@ -12,3 +12,4 @@ def load_library(emoticons)
   end
   new_hash
 end	
+
