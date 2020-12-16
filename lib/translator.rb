@@ -13,3 +13,13 @@ def load_library(emoticons)
   new_hash
 end	
 
+def get_japanese_emoticon(emoticons, emoticon)
+  result = ''
+  library = load_library(emoticons)
+  if library["get_emoticon"].keys.include?(emoticon)
+    result = library["get_emoticon"][emoticon]
+  else
+    result = "Sorry, that emoticon was not found"
+  end
+  result
+end
