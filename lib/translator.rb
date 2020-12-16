@@ -15,3 +15,4 @@ def load_library(emoticon_file)
   end
   emoticon_lib
 end
+
