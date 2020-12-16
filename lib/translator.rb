@@ -23,3 +23,4 @@ def get_japanese_emoticon(emoticons, emoticon)
   end
   result
 end
+
